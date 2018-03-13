@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd ">
+
+	<!-- Initialization for data source -->
+	
+	<!-- <bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+
+		<property name="driverClassName" value="com.ibm.db2.jcc.DB2Driver" />
+		<property name="url" value="jdbc:db2://153.2.18.133:6026/DS51" />
+		<property name="username" value="T253RMT1" />
+		<property name="password" value="T2532018" />
+	</bean> -->
+	
+	<!-- 
+	<bean id="ParEligibility" class="com.java.model.PAREligJDBCTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+ -->
+</beans>
